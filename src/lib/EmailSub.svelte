@@ -5,7 +5,7 @@ const handleOnClick = () => {
 }
 </script>
 
-<input bind:checked={yes} type="checkbox" /> Click to send spam email!
+<input bind:checked={yes} type="checkbox" /> Send spam email!
 
 {#if yes}
 <p>Yay!, We Will start to spam you soon!</p>
